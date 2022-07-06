@@ -1,0 +1,5 @@
+C:\Users\sg_oz\Desktop\TeleperformanceProject\HangfireServices\obj\Debug\net6.0\HangfireServices.csproj.AssemblyReference.cache
+C:\Users\sg_oz\Desktop\TeleperformanceProject\HangfireServices\obj\Debug\net6.0\HangfireServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sg_oz\Desktop\TeleperformanceProject\HangfireServices\obj\Debug\net6.0\HangfireServices.AssemblyInfoInputs.cache
+C:\Users\sg_oz\Desktop\TeleperformanceProject\HangfireServices\obj\Debug\net6.0\HangfireServices.AssemblyInfo.cs
+C:\Users\sg_oz\Desktop\TeleperformanceProject\HangfireServices\obj\Debug\net6.0\HangfireServices.csproj.CoreCompileInputs.cache

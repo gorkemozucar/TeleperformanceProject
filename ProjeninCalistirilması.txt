@@ -1,0 +1,14 @@
+Projeyi çalıştırmak için yapılması gerekenler:
+İndirdikten sonra tüm projeler tek tek build edildikten sonra solution rebuild edilmelidir.
+Rebuild edildikten sonra bir hatayla karşılaşılmadıysa WebApi içinde bulunan appsettings.json dosyasını içindeki connection string yerlerine kendi connection stringinizi giriniz.
+Solution explorerdan WebApi projesine sağ tıklayıp  set as startup project butonuna tıklayın.
+Toolslardan Packet manager console açıldıktan sonra default project Identity seçildikten sonra şu komutlar sırasıyla yazın.
+add-migration Init -context AppIdentityDbContext
+update-database Init -context AppIdentityDbContext
+ardından defaul project Infrastructure olarak seçildikten sonra
+add-migration Init -context AppDbContext
+update-database Init -context AppDbContext 
+komutlarını yazınız.
+Bir hatayla karşılaşılmadıysa Projeyi çalıştırıp Swaggerdan tüm methodları deneyebilirsiniz.
+Swaggerda authorization için gereken jwt token bilgisini giremediğimiz için Authorization komutlarını yorum satırına aldım.
+Rabbitmq kurulu olmadığından swagger servisleri çözemediğinden hata veriyor rabbit mq koduda yorum satırındadır.

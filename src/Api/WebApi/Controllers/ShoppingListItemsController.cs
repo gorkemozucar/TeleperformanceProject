@@ -2,16 +2,20 @@
 using Application.Features.ShoppingLists.Requests.Commands;
 using AutoMapper;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace WebApi.Controllers
 {
+    //[Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class ShoppingListItemsController : ControllerBase
     {
         private readonly IMediator _mediator;
+
 
         public ShoppingListItemsController(IMediator mediator)
         {

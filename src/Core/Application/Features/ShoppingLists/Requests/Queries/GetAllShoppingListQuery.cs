@@ -4,5 +4,5 @@ using MediatR;
 
 namespace Application.Features.ShoppingLists.Requests.Queries
 {
-    public record GetAllShoppingListQuery(int PageNumber,int PageSize,string CategoryName, DateTime CreatedDate , DateTime CompletedDate) : IRequest<ServiceResponse<IEnumerable<ShoppingListDto>>>;
+    public record GetAllShoppingListQuery(int PageNumber,int PageSize,string keyword) : IRequest<ServiceResponse<IEnumerable<ShoppingListDto>>>;
 }

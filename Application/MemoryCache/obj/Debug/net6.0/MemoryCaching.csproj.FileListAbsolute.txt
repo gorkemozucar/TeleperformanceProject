@@ -1,0 +1,17 @@
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\MemoryCaching.deps.json
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\MemoryCaching.dll
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\MemoryCaching.pdb
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\Application.dll
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\Domain.dll
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\Application.pdb
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\bin\Debug\net6.0\Domain.pdb
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.csproj.AssemblyReference.cache
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.AssemblyInfoInputs.cache
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.AssemblyInfo.cs
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.csproj.CoreCompileInputs.cache
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.csproj.CopyComplete
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.dll
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\refint\MemoryCaching.dll
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\MemoryCaching.pdb
+C:\Users\sg_oz\Desktop\TeleperformanceProject\Application\MemoryCache\obj\Debug\net6.0\ref\MemoryCaching.dll

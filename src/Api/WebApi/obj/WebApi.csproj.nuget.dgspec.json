@@ -4,6 +4,64 @@
     "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\src\\Api\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
+    "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\MemoryCaching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\MemoryCaching.csproj",
+        "projectName": "MemoryCaching",
+        "projectPath": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\MemoryCaching.csproj",
+        "packagesPath": "C:\\Users\\sg_oz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sg_oz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\src\\Core\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\src\\Core\\Application\\Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Infrastructure\\Identity\\Identity.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -122,6 +180,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\MemoryCaching.csproj": {
+                "projectPath": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Application\\MemoryCache\\MemoryCaching.csproj"
+              },
               "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Infrastructure\\Identity\\Identity.csproj": {
                 "projectPath": "C:\\Users\\sg_oz\\Desktop\\TeleperformanceProject\\Infrastructure\\Identity\\Identity.csproj"
               },
@@ -236,6 +297,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.6, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",

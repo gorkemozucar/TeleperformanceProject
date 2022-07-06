@@ -4,7 +4,7 @@
     {
         public static string InternalServerError = "An unexpected error has occurred, please try again later";
 
-        public static string UserNotFound = "User not found";
+        public static string UserNotFound = "User couldn't found";
         public static string LoginFailed = "Email or password is wrong";
         public static string LoginSuccess = "Successfully logged in";
 

@@ -16,6 +16,10 @@ namespace Application.Mappings
     {
         public MapProfile()
         {
+
+            CreateMap<RegisterRequestDto, AppUser>().ReverseMap();
+            CreateMap<RegisterResponseDto, AppUser>().ReverseMap();
+
             CreateMap<ShoppingListItem, CreateShoppingListItemCommand>().ReverseMap();
             CreateMap<ShoppingListItem,ShoppingListItemDto>().ReverseMap();
             CreateMap<ShoppingListItem,UpdateShoppingListCommand>().ReverseMap();
@@ -26,8 +30,6 @@ namespace Application.Mappings
             CreateMap<ShoppingList, UpdateShoppingListCommand>().ReverseMap();
             CreateMap<ShoppingList, ShoppingListUpdateDto>().ReverseMap();
 
-            CreateMap<RegisterRequestDto, AppUser>().ReverseMap();
-            CreateMap<RegisterResponseDto, AppUser>().ReverseMap();
 
         }
     }

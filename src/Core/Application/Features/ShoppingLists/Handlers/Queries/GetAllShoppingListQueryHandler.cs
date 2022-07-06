@@ -23,9 +23,9 @@ namespace Application.Features.ShoppingLists.Handlers.Queries
         public Task<ServiceResponse<IEnumerable<ShoppingListDto>>> Handle(GetAllShoppingListQuery request, CancellationToken cancellationToken)
         {
             var query = _shoppingListReadRepository.GetAll();
-            if (!string.IsNullOrWhiteSpace(request.CategoryName))
+            if (!string.IsNullOrWhiteSpace(request.keyword))
             {
-               query= query.Where(x => x.CategoryName.Contains(request.CategoryName));
+               query= query.Where(x => x.CategoryName.Contains(request.keyword));
             }
             var result = query
                 .Include(x=>x.ShoppingListItems).ToList();

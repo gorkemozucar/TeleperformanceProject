@@ -7,11 +7,11 @@ namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthorizationController : ControllerBase
     {
         private readonly IMediator  _mediator;
 
-        public AuthController(IMediator mediator)
+        public AuthorizationController(IMediator mediator)
         {
             _mediator = mediator;
         }
